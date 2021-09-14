@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Arthur Pendragon</Name>
+    <Guid>dad57ae0-709a-4df8-be29-b42527416378</Guid>
+    <ProjectGuid>b6f82757-3de9-4577-a03b-cec428b75a19</ProjectGuid>
+    <ModVersion>4</ModVersion>
+    <Teaser>Add Arthur as a leader and Britain as a new civilization</Teaser>
+    <Description>All rights belong to TYPE-MOON</Description>
+    <Authors>HaoJun0823 &amp; Entarogan</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Arthur_Pendragon</AssemblyName>
+    <RootNamespace>Arthur_Pendragon</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="Arturia of Britain" id="a25ad10a-e70c-423f-93e0-447da921c904" />
+</Associations>]]></AssociationData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FATE_ARTHUR,Players:Expansion1_Players::LEADER_FATE_ARTHUR,Players:Expansion2_Players::LEADER_FATE_ARTHUR</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_FATE_ARTHUR</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_FATE_ARTHUR</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="ArthurPreData"><File>Arthur_Config.xml</File></UpdateDatabase><UpdateArt id="ArthurPreArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ArthurPreIcon"><File>Arthur_Icon.xml</File></UpdateIcons><UpdateText id="ArthurPreText"><File>Arthur_Loc_PreGame.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="ArthurInData"><Criteria>LeaderCriteria</Criteria><File>Arthur_Leader.xml</File><File>Arthur_UI.xml</File><File>Arthur_Sql.sql</File></UpdateDatabase><UpdateArt id="ArthurInArt"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ArthurInIcon"><Criteria>LeaderCriteria</Criteria><File>Arthur_Icon.xml</File></UpdateIcons><UpdateText id="ArthurInText"><Criteria>LeaderCriteria</Criteria><File>Arthur_Loc_InGame.xml</File><File>Arthur_Loc_PreGame.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Arthur_Pendragon.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arthur_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_Loc_InGame.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_Loc_PreGame.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_Sql.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Arthur_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

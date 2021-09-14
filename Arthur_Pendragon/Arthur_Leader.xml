@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arthur_Leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2018/12/30 16:06:07 -->
+<GameData>
+
+
+
+	<Types>
+		<Row Type="LEADER_FATE_ARTHUR" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_EXCALIBUR_ARTHUR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_FATE_ARTHUR</LeaderType>
+			<Name>LOC_LEADER_FATE_ARTHUR_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Male</Sex>
+		</Row>
+	</Leaders>
+
+
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" CapitalName="LOC_CIVILIZATION_ENTBRITAIN_CITY_1"/>
+	</CivilizationLeaders>
+
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FATE_ARTHUR" TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR"/>
+		<Row LeaderType="LEADER_FATE_ARTHUR" TraitType="TRAIT_LEADER_NONRELIGIOUS_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_FATE_ARTHUR" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+	</LeaderTraits>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FATE_ARTHUR" Quote="LOC_LEADER_FATE_ARTHUR_QUOTE"/>
+	</LeaderQuotes>
+
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" Name="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME" Description="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" Name="LOC_AGENDA_THE_HONOR_OF_KNIGHT_KING_NAME" Description="LOC_AGENDA_THE_HONOR_OF_KNIGHT_KING_DESCRIPTION"/>
+	</Traits>
+
+
+	<TraitModifiers>
+
+	<!--
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_EXP"/>
+
+		
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_TOURISM"/>
+
+	-->
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_1"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_2"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_3"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_4"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_5"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_6"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_UNIT_7"/>
+
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_D"/>
+		
+		
+		<!--
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_INFLUENCE"/>
+		<Row TraitType="TRAIT_LEADER_EXCALIBUR_ARTHUR" ModifierId="TRAIT_EXCALIBUR_ARTHUR_INFLUENCE_P"/>
+-->
+		
+
+	</TraitModifiers>
+
+	
+	<Modifiers>
+
+<!--
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_EXP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+
+-->
+		<!--
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_INFLUENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_INFLUENCE_P</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		
+		-->
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_7</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_D</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+		</Row>
+		
+		
+	</Modifiers>
+
+	<ModifierArguments>
+
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_D</ModifierId>
+			<Name>Amount</Name>
+			<Value>999</Value>
+		</Row>
+		
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_1</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RECON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_2</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_3</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_4</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_5</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_6</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_6</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_7</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_UNIT_7</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+
+<!--
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_TOURISM</ModifierId>
+			<Name>BoostsWonders</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_TOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>500</Value>
+		</Row>
+		
+		
+		
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_EXP</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+-->
+
+		<!--
+		
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_INFLUENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+
+		
+		
+
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_INFLUENCE_P</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXCALIBUR_ARTHUR_INFLUENCE_P</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+-->
+
+
+	</ModifierArguments>
+
+
+	<!--Agendas Info-->
+	<Agendas>
+		<Row AgendaType="AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" Name="LOC_AGENDA_THE_HONOR_OF_KNIGHT_KING_NAME" Description="LOC_AGENDA_THE_HONOR_OF_KNIGHT_KING_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FATE_ARTHUR" AgendaType="AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" TraitType="TRAIT_AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" AgendaTwo="AGENDA_DARWINIST"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" ModifierId="AGENDA_NICE_FATE_ARTHUR"/>
+		<Row TraitType="TRAIT_AGENDA_THE_HONOR_OF_KNIGHT_KING_ARTHUR" ModifierId="AGENDA_FALUT_FATE_ARTHUR"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<RequirementSets>
+
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+
+
+	</RequirementArguments>
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_FATE_ARTHUR_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_FATE_ARTHUR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_HONOR_OF_KNIGHT_KING_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_FATE_ARTHUR_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FALUT_FATE_ARTHUR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_HONOR_OF_KNIGHT_KING_SURPRISE_WAR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_NICE_FATE_ARTHUR" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FALUT_FATE_ARTHUR" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_FATE_ARTHUR" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+</GameData>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arthur_Loc_InGame -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2018/12/30 16:06:35 -->
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>好，让我们朝着世界的和平前进吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>抱歉，允许我不同意你的请求。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>世界的秩序需要你我来维护，我们一起走向光明吧，怎么样？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>相信我，这是正确的道路。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>好吧……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>既然如此……那就战斗吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>没有意义……一切都是毫无必要的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>感谢你。 </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>抱歉，我不需要这些东西呢。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>给你带一些礼物，希望你喜欢。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>停止吧，这不是你能够前进的方向。（谴责你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>贵安，我是不列颠的领导者，亚瑟，请问你是哪位？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>来看看吧，这是美丽的不列颠。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>很漂亮的城市啊……我是亚瑟，不列颠的领导者。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>原来如此……很高兴认识你。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>贵安，我们又见面了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>握住我的手，请和我一起走向明天吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>要谨记和平才是幸福。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>抱歉……有些事情，不解决是无法结束的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>我主动放弃战争，希望你也可以如此大度。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>可以的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>不行哦。 </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>我可不可以穿过你的领土？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>这是我的警告，没有第二次了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>……即便如此……我还是要劝你……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>好吧……是我的问题……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hans_CN" >
+			<Text>嗯，非常开心！</Text>
+		</Row>
+
+		
+
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>好，讓我們朝著世界的和平前進吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>抱歉，允許我不同意妳的請求。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>世界的秩序需要妳我來維護，我們壹起走向光明吧，怎麽樣？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>相信我，這是正確的道路。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>好吧……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>既然如此……那就戰鬥吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>沒有意義……壹切都是毫無必要的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>感謝妳。 </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>抱歉，我不需要這些東西呢。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>給妳帶壹些禮物，希望妳喜歡。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>停止吧，這不是妳能夠前進的方向。（譴責妳）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>貴安，我是不列顛的領導者，亞瑟，請問妳是哪位？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>來看看吧，這是美麗的不列顛。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>很漂亮的城市啊……我是亞瑟，不列顛的領導者。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>原來如此……很高興認識妳。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>貴安，我們又見面了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>握住我的手，請和我壹起走向明天吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>要謹記和平才是幸福。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>抱歉……有些事情，不解決是無法結束的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>我主動放棄戰爭，希望妳也可以如此大度。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>可以的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>不行哦。 </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>我可不可以穿過妳的領土？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>這是我的警告，沒有第二次了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>……即便如此……我還是要勸妳……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>好吧……是我的問題……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"   Language="zh_Hant_HK" >
+			<Text>嗯，非常開心！</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_ARTHUR"   Language="zh_Hans_CN" >
+			<Text>推崇善良的存在，追究邪恶的存在。[NEWLINE]犹如每一颗孩童之心都梦想过的白马骑士般的英雄。[NEWLINE]也被称作星之圣剑使。[NEWLINE]其真面目，是追逐着某种存在[NEWLINE]来到这个世界的异世界的「骑士王」。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_ARTHUR"   Language="zh_Hant_HK" >
+			<Text>推崇善良的存在，追究邪惡的存在。[NEWLINE]猶如每壹顆孩童之心都夢想過的白馬騎士般的英雄。[NEWLINE]也被稱作星之聖劍使。[NEWLINE]其真面目，是追逐著某種存在[NEWLINE]來到這個世界的異世界的「騎士王」。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_QUOTE"   Language="zh_Hans_CN" >
+			<Text>我是Saber。保护你，保护世界的——从者。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_QUOTE"   Language="zh_Hant_HK" >
+			<Text>我是Saber。保護妳，保護世界的——從者。</Text>
+		</Row>
+
+
+
+
+	</LocalizedText>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_ARTHUR"    >
+			<Text>Approving of the virtuous and correcting atrocities.[NEWLINE]A hero who is like a knight in shining armor that anyone would dream about as a child.[NEWLINE]Also called the wielder of the holy sword of the planet.[NEWLINE]His true identity is that of the "King of Knights" of a parallel universe, who reached this world by chasing after some sort of existence.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_QUOTE"    >
+			<Text>I am Saber. Protect you and protect the world - the followers. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Ok, let us move toward peace in the world. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>Sorry, allow me to disagree with your request. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>The order of the world needs you and me to maintain, let's go to the light together, how? </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Believe me, this is the right path. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Ok...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> That's it... then fight! </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> doesn't make sense... everything is unnecessary. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>Thank you. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>Sorry, I don't need these things. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> brings you some gifts, I hope you like it. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>......</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Stop, this is not the direction you can move forward. (condemn you)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Hello, I am the leader of Britain, Arthur, who are you? </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Let's take a look, this is beautiful Britain. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> A very beautiful city... I am Arthur, the leader of Britain. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> It turns out so... I’m glad to meet you. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Hi, we met again. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Hold my hand, please come with me to tomorrow. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Keep in mind that peace is happiness. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>Sorry... Some things can't be ended without solving them. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> I took the initiative to give up the war, I hope you can be so generous. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> is ok. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> No. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Can I cross your territory? </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> This is my warning, not the second time. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text>...even so...I still have to advise you...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Ok... it’s my problem...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_ARTHUR_ANY"  >
+			<Text> Well, very happy! </Text>
+		</Row>
+
+	</BaseGameText>
+</GameData>

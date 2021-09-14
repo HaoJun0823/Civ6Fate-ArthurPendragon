@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arthur_Loc_PreGame -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2018/12/30 16:06:21 -->
+<GameData>
+	<BaseGameText>
+
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME"   >
+			<Text>Excalibur</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ARTHUR_KNIGHTS_NAME"   >
+			<Text>Excalibur</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ARTHUR_KNIGHTS_DESCRIPTION"   >
+			<Text>There will be two common land military units produced in cities instead of one. [NEWLINE]Your builders +2[ICON_Charges], you can consume [ICON_Charges] to advance the construction progress of the area by 25%, feature units and settlers and builders +1[ICON_Movement]. [NEWLINE]Cities with feature buildings +50%[ICON_GreatPerson]. When the total number of special buildings reaches 12, all units will be greatly strengthened. [NEWLINE]Districts are built regardless of population, and each district will have +4[ICON_Production]. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION"   >
+			<Text>There will be two land military units produced, and the construction of the area ignores the population.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_NAME"   >
+			<Text>Arthur Pendragon</Text>
+		</Row>
+	</BaseGameText>
+	<LocalizedText>
+
+
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME"   Language="zh_Hans_CN" >
+			<Text>誓约胜利之剑</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME"   Language="zh_Hant_HK" >
+			<Text>誓約勝利之劍</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION"   Language="zh_Hans_CN" >
+			<Text>城市生产的通常型陆地军事单位会出现两个，而不是一个。[NEWLINE]你的建造者+2[ICON_Charges]，可以消耗[ICON_Charges]推进区域25%的建造进度，并且特色单位和开拓者和建造者+1[ICON_Movement]。[NEWLINE]拥有特色建筑的城市+50%[ICON_GreatPerson]，当特色建筑总数量达到12时，所有单位会得到大幅度的强化。[NEWLINE]区域的建造无视人口，每个区域都会+4[ICON_Production]。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION"   Language="zh_Hant_HK" >
+			<Text>城市生產的通常型陸地軍事單位會出現兩個，而不是一個。 [NEWLINE]你的建造者+2[ICON_Charges]，可以消耗[ICON_Charges]推進區域25%的建造進度，並且特色單位和開拓者和建造者+1[ICON_Movement]。 [NEWLINE]擁有特色建築的城市+50%[ICON_GreatPerson]，當特色建築總數量達到12時，所有單位會得到大幅度的強化。 [NEWLINE]區域的建造無視人口，每個區域都會+4[ICON_Production]。 </Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_NAME"   Language="zh_Hans_CN" >
+			<Text>亚瑟·潘德拉贡</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_FATE_ARTHUR_NAME"   Language="zh_Hant_HK" >
+			<Text>亞瑟·潘德拉貢</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+		
+</GameData>

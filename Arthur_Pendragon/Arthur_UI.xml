@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arthur_UI -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2018/12/30 16:06:47 -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_FATE_ARTHUR_PRIMARY</Type>
+			<Color>18,35,134,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_FATE_ARTHUR_SECONDARY</Type>
+			<Color>251,217,141,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_FATE_ARTHUR</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_FATE_ARTHUR_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_FATE_ARTHUR_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FATE_ARTHUR" ForegroundImage="LEADER_NEUTRAL_FATE_ARTHUR.dds"  BackgroundImage="LEADER_NEUTRAL_FATE_ARTHUR_BACKGROUND_LOAD.dds" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FATE_ARTHUR" BackgroundImage="LEADER_NEUTRAL_FATE_ARTHUR_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+</GameData>

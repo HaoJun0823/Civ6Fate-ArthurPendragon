@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arthur_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2018/12/30 16:05:23 -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ENTBRITAIN</CivilizationType>
+			<LeaderType>LEADER_FATE_ARTHUR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ENTBRITAIN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FATE_ARTHUR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FATE_ARTHUR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FATE_ARTHUR</LeaderAbilityIcon>
+			<Portrait>LEADER_FATE_ARTHUR_NEUTRAL</Portrait>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_ENTBRITAIN</CivilizationType>
+			<LeaderType>LEADER_FATE_ARTHUR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ENTBRITAIN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FATE_ARTHUR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FATE_ARTHUR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FATE_ARTHUR</LeaderAbilityIcon>
+			<Portrait>LEADER_FATE_ARTHUR_NEUTRAL</Portrait>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ENTBRITAIN</CivilizationType>
+			<LeaderType>LEADER_FATE_ARTHUR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ENTBRITAIN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FATE_ARTHUR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FATE_ARTHUR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CHIVALRY_COMMUNITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_LEADER_FATE_ARTHUR_CIV</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EXCALIBUR_ARTHUR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FATE_ARTHUR</LeaderAbilityIcon>
+			<Portrait>LEADER_FATE_ARTHUR_NEUTRAL</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="UNIT_ROUND_TABLE" Icon="ICON_UNIT_ROUND_TABLE" Name="LOC_UNIT_ROUND_TABLE_NAME" Description="LOC_UNIT_ROUND_TABLE_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="BUILDING_ARTHURIAN_CASTLE" Icon="ICON_BUILDING_ARTHURIAN_CASTLE" Name="LOC_BUILDING_ARTHURIAN_CASTLE_NAME" Description="LOC_BUILDING_ARTHURIAN_CASTLE_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="UNIT_ROUND_TABLE" Icon="ICON_UNIT_ROUND_TABLE" Name="LOC_UNIT_ROUND_TABLE_NAME" Description="LOC_UNIT_ROUND_TABLE_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="BUILDING_ARTHURIAN_CASTLE" Icon="ICON_BUILDING_ARTHURIAN_CASTLE" Name="LOC_BUILDING_ARTHURIAN_CASTLE_NAME" Description="LOC_BUILDING_ARTHURIAN_CASTLE_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="UNIT_ROUND_TABLE" Icon="ICON_UNIT_ROUND_TABLE" Name="LOC_UNIT_ROUND_TABLE_NAME" Description="LOC_UNIT_ROUND_TABLE_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ENTBRITAIN" LeaderType="LEADER_FATE_ARTHUR" Type="BUILDING_ARTHURIAN_CASTLE" Icon="ICON_BUILDING_ARTHURIAN_CASTLE" Name="LOC_BUILDING_ARTHURIAN_CASTLE_NAME" Description="LOC_BUILDING_ARTHURIAN_CASTLE_DESCRIPTION" SortIndex="20"/>
+	</PlayerItems>
+</GameData>
